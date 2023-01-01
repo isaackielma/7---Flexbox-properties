@@ -1,0 +1,51 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 10px
+;
+  }
+
+  
+  section {
+    padding: 2em;
+    min-width: 150px;
+  }
+  
+  #green {
+    background-color: #8ffda7;
+  }
+  
+  #orange {
+    background-color: #ffc788;
+    min-width: 300px;
+  }
+  
+  #yellow {
+    background-color: #ffff92;
+  }
+  
+  #red {
+    background-color: #ff919c;
+  }
+  
+  #blue {
+    background-color: #98d2ff;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+  }
+  
